@@ -1,0 +1,18 @@
+# this script solicits a person's name and age, and returns their centenary year
+name = input("please enter your name:  ")
+please enter your name:  >? Tom
+age = input("please enter your age:  ")
+please enter your age:  >? 36
+import datetime
+now = datetime.datetime.now()
+print(datetime.year)
+print(now.year)
+2019
+Birthyear = (now.year - age)
+age = int(age)
+print(age)
+36
+Birthyear = int(birthyear)
+Centenary = Birthyear + 100
+print(name, "you will reach 100 in the year " +(str(centenary)))
+Tom you will reach 100 in the year 2083
